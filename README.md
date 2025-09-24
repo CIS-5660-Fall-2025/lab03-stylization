@@ -4,7 +4,7 @@
 
 Puzzle 1:
 
-![1.png](imgs\1.png)
+![1.png](imgs/1.png)
 
 Puzzle 2:
 
