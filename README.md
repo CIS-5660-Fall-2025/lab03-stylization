@@ -8,15 +8,15 @@ Puzzle 1:
 
 Puzzle 2:
 
-![1.png](imgs\2.png)
+![1.png](imgs/2.png)
 
 Puzzle 3:
 
-![1.png](imgs\3.png)
+![1.png](imgs/3.png)
 
 Extra Credit:
 
-![1.png](imgs\4.png)
+![1.png](imgs/4.png)
 
 
 
