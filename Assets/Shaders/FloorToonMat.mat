@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ToonMat
+  m_Name: FloorToonMat
   m_Shader: {fileID: -6465566751694194690, guid: c6aa7fe2d57109446a7e1f7bb3d4ad11,
     type: 3}
   m_Parent: {fileID: 0}
@@ -143,8 +143,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Highlight: {r: 1, g: 0.5226415, b: 0.97782004, a: 0}
-    - _Midtone: {r: 0.74006253, g: 0.3398362, b: 0.8113208, a: 0}
-    - _Shadow: {r: 0.62109697, g: 0.20959415, b: 0.7075472, a: 0}
+    - _Highlight: {r: 0.8039216, g: 0.6784314, b: 0.94509804, a: 0}
+    - _Midtone: {r: 0.73325235, g: 0.54645777, b: 0.9433962, a: 0}
+    - _Shadow: {r: 0.587896, g: 0.3389818, b: 0.8679245, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
