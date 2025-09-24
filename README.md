@@ -1,4 +1,19 @@
 # Lab 05 - Stylization!
+
+Name: Tianhong Zhou
+
+Puzzle1:
+
+![](imgs/puzzles1.png)
+
+Puzzle2:
+
+![](imgs/puzzles2.png)
+
+Puzzle3:
+
+![](imgs/puzzles3.png)
+
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
 ## Introduction
