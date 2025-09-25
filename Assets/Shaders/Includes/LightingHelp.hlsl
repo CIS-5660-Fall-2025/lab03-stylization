@@ -20,14 +20,16 @@ void GetMainLight_float(float3 WorldPos, out float3 Color, out float3 Direction,
 #endif
 }
 
-void ChooseColor_float(float3 Highlight, float3 Shadow, float Diffuse, float Threshold, out float3 OUT)
+void ChooseColor_float(float3 Highlight, float3 Midtone, float3 Shadow, float Diffuse, float LoThreshold, float HiThreshold, float Smoothness, out float3 OUT)
 {
-    if (Diffuse < Threshold)
-    {
-        OUT = Shadow;
-    }
-    else
-    {
-        OUT = Highlight;
-    }
+    Smoothness += 0.0001;
+    
+    float shadowMult = smoothstep(LoThreshold+Smoothness*.5, LoThreshold-Smoothness*.5, Diffuse);
+    float midtoneMult = smoothstep(LoThreshold-Smoothness*.5, LoThreshold+Smoothness*.5, Diffuse) * smoothstep(HiThreshold+Smoothness*.5, HiThreshold-Smoothness*.5, Diffuse);
+    float highlightMult = smoothstep(HiThreshold-Smoothness*.5, HiThreshold+Smoothness*.5, Diffuse);
+
+    OUT =
+        shadowMult * Shadow +
+        midtoneMult * Midtone +
+        highlightMult * Highlight;
 }
