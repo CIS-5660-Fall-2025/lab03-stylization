@@ -1,7 +1,29 @@
 # Lab 05 - Stylization!
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
-## Introduction
+
+# Submission:
+## Puzzle 1
+<img width="952" height="584" alt="Lab03_Puzzle1" src="https://github.com/user-attachments/assets/00dd41e9-7964-4162-92ff-5587c0bb8560" />
+
+Two-tone toon shader
+
+## Puzzle 2
+<img width="714" height="602" alt="Lab03_Puzzle2" src="https://github.com/user-attachments/assets/e41fd0dd-407c-45b4-b33f-15797f87c74d" />
+
+Three-tone toon shader
+
+## Puzzle 3
+<img width="647" height="590" alt="Lab03_Puzzle3" src="https://github.com/user-attachments/assets/5669790b-e337-44af-89af-5731065039f1" />
+
+Three-tone toon shader with screen space shadow texture
+
+## Extra
+<img width="722" height="396" alt="Lab03_Extra" src="https://github.com/user-attachments/assets/55e6197b-14c9-4803-84ca-8abc268dd52e" />
+
+Three-tone toon shader with smoothness parameter for thresholds (shadow texture optional)
+
+## Introduction (Lab description)
 We will be stylizing a "toon" look by creating a shader in Unity that supports shadows and multiple lights in real-time! In the process, you will gain some familiarity with Unity’s shader graph.
 
 ## What’s provided:
@@ -37,8 +59,3 @@ The goal of each puzzle will be to replicate the look of each puzzle’s image.
   
 Extra Credit:
  * Add some soft interpolation at the edges of your bands, for smooth transitions between color bands. Create a "smoothness" parameter that adjusts the degree of smoothness!
-
-# Submission:
-- Create a pull request against this repository
-- In your readme, add screenshots of your results for Puzzles 1, 2 and 3
-- Profit
