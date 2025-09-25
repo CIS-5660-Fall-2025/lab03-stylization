@@ -138,7 +138,7 @@ Material:
     - _ShadowHatchScale: 5.29
     - _ShadowRotation: 0
     - _ShadowScale: 1
-    - _Smoothness: 0.5
+    - _Smoothness: 0.092
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
