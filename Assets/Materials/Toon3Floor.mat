@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon3Tan
+  m_Name: Toon3Floor
   m_Shader: {fileID: -6465566751694194690, guid: ddc18d3edb22d2249bf561d3f5c3a5a1,
     type: 3}
   m_Parent: {fileID: 0}
@@ -115,7 +115,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HighlightAmount: 0.5
+    - _HighlightAmount: 1
     - _HighlightThreshold: 0.54
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
     - _Metallic: 0
@@ -126,7 +126,7 @@ Material:
     - _ReceiveShadows: 1
     - _SHADOWS_SOFT: 1
     - _ShadowAmount: 0.8
-    - _ShadowThreshold: 0.02
+    - _ShadowThreshold: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -137,11 +137,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9811321, g: 0.8068656, b: 0.50352436, a: 1}
+    - _BaseColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HighlightColor: {r: 1, g: 0.9060934, b: 0.7396226, a: 1}
-    - _ShadowColor: {r: 0.8679245, g: 0.71259475, b: 0.43723744, a: 1}
+    - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7947372320518126950
